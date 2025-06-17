@@ -2,7 +2,7 @@
 
 > Your command line, clarified.
 
-`clai` is a command-line tool that uses DeepSeek AI to translate your natural language requests into executable shell commands. Never forget a complex `find` or `tar` command again.
+`clai` is a command-line tool that uses AI to translate your natural language requests into executable shell commands. Never forget a complex `find` or `tar` command again.
 
 ![clai Demo GIF](assets/demo.gif)
 
@@ -38,7 +38,7 @@ After installation, you **must** configure your API key.
     ```sh
     nano ~/.config/ai/config.ini
     ```
-2.  Replace `YOUR_API_KEY_HERE` with your actual [Deepseek API key](https://platform.deepseek.com/api_keys).
+2.  Replace `YOUR_API_KEY_HERE` with your actual [Deepseek API key](https://platform.deepseek.com/api_keys), or [Gemini API key](https://aistudio.google.com/app/apikey).
 
     ```ini
     [API]
@@ -109,8 +109,3 @@ $ ai --help
 # or for more detail
 $ man ai
 ```
-
-## Acknowledgments
-
-* This tool is powered by the [Deepseek AI](https://www.deepseek.com/) API.
-
