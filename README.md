@@ -2,7 +2,7 @@
 
 > Your command line, clarified.
 
-`clai` is a command-line tool that uses AI to translate your natural language requests into executable shell commands. Never forget a complex `find` or `tar` command again.
+`clai` is a command-line tool that uses DeepSeek AI to translate your natural language requests into executable shell commands. Never forget a complex `find` or `tar` command again.
 
 ![clai Demo GIF](assets/demo.gif)
 
