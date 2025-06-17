@@ -39,14 +39,23 @@ After installation, you **must** configure your API key.
     nano ~/.config/ai/config.ini
     ```
 2.  Replace `YOUR_API_KEY_HERE` with your actual [Deepseek API key](https://platform.deepseek.com/api_keys), or [Gemini API key](https://aistudio.google.com/app/apikey).
-
-    ```ini
+    ```
     [API]
+    # Set provider to 'deepseek' or 'gemini'
+    provider = gemini
+
+    [Deepseek]
+    # Get your Deepseek key from https://platform.deepseek.com/
     key = YOUR_API_KEY_HERE
     model = deepseek-chat
 
+    [Gemini]
+    # Get your Gemini key from https://aistudio.google.com/app/apikey
+    key = YOUR_API_KEY_HERE
+    model = gemini-1.5-flash
+
     [Settings]
-    timeout = 20
+    timeout = 30
     ```
 
 ## Usage
